@@ -10,12 +10,11 @@ setup(
       license='MIT',
       packages=['database_connection'],
       zip_safe=False,
-      
+
       install_requires=[
        'pymysql',
        'psycopg2',
        'sqlalchemy',
-       'sqlite',
        'sqlalchemy-redshift'
       ],
       project_urls={
