@@ -1,6 +1,7 @@
 from setuptools import setup
 
-setup(name='database_connection',
+setup(
+      name='database_connection',
       version='0.1',
       description='A sqlalchemy connection utility',
       url='http://github.com/kkwanyang/database_connection',
@@ -8,4 +9,17 @@ setup(name='database_connection',
       author_email='kk.dsdev@gmail.com',
       license='MIT',
       packages=['database_connection'],
-      zip_safe=False)
+      zip_safe=False,
+      
+      install_requires=[
+       'pymysql',
+       'psycopg2',
+       'sqlalchemy',
+       'sqlite',
+       'sqlalchemy-redshift'
+      ],
+      project_urls={
+          'Source': 'https://github.com/kkwanyang/database_connection/',
+          'Tracker': 'https://github.com/kkwanyang/database_connection/issues',
+      }
+)
