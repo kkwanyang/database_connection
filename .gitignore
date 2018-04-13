@@ -7,10 +7,11 @@
 
 # Python generated #
 ####################
-*.pyc
-
-# Setuptools distribution folder.
-/dist/
-
-# Python egg metadata, regenerated from source files by setuptools.
-/*.egg-info
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
