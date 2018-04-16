@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
       name='database_connection',
-      version='0.1.0',
+      version='0.1.1',
       description='A sqlalchemy connection utility',
       url='http://github.com/kkwanyang/database_connection',
       author='kkwanyang',
